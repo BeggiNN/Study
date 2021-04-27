@@ -1,0 +1,7 @@
+<?php /** @var Perspective\NameChange\Block\Index $block */ ?>
+<?php
+$arr = $block->getSalesEnd();
+if ($arr[0]){
+?>
+<br><b>Продажа даного продукта заканчивается: <?= $arr[1]; ?></b>
+<?php } ?>
